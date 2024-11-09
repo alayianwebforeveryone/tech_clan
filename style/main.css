@@ -3874,18 +3874,20 @@ footer a {
 /* ------------------------------------------------------------------- 
  * ## go top
  * ------------------------------------------------------------------- */
+
+
 .ss-go-top a::before {
   content: "";
   display: block;
   height: 16px;
-  width: 12px;
+  width: 30px;
   background-image: url(../images/icon-up.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: absolute;
   top: 50%;
-  left: 3.5rem;
+  left: 2.5rem;
   margin-top: -9px;
 }
 
@@ -3936,4 +3938,3 @@ footer a {
 
 }
 
-/*# sourceMappingURL=main.css.map */
